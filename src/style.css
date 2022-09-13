@@ -11,14 +11,11 @@ body {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        max-width: 100%;
-        align-items: flex-start;
         margin-top: 10%;
     }
 
     .crew div {
         width: 50%;
-        text-align: center;
     }
 
     .rigth {
@@ -28,18 +25,74 @@ body {
     img {
         width: 80%;
         height: auto;
+        margin-left: 10%;
     }
 
     .name {
         margin-bottom: 0%;
+        margin-left: 10%;
+        text-align: left;
     }
 
     .ocup {
         position: relative;
         text-align: left;
         margin: 0px;
-        top: -11.5rem;
+        bottom: 50%;
         left: 45%;
         transform: rotate(90deg);
+    }
+
+    .rigth .ocup {
+        bottom: 60%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .topInfo {
+        display: flex;
+        align-items: center;
+    }
+
+    .topInfo h1 {
+        width: 100%;
+        text-align: center;
+        margin: 0rem 1rem;
+    }
+
+    .topInfo  div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .crew {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .crew div {
+        width: 33%;
+    }
+
+    .medium {
+        margin-top: 10%;
+    }
+
+    img {
+        width: 75%;
+    }
+
+    .ocup {
+        position: relative;
+        text-align: left;
+        margin: 0px;
+        bottom: 50%;
+        left: 41%;
+        transform: rotate(90deg);
+    }
+
+    .medium .ocup {
+        bottom: 60%;
     }
 }
