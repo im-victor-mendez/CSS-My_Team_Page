@@ -1,0 +1,45 @@
+body {
+    max-width: 100vw;
+}
+
+@media screen and (max-width: 600px) {
+    .topInfo {
+        max-width: 90%;
+    }
+
+    .crew {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 100%;
+        align-items: flex-start;
+        margin-top: 10%;
+    }
+
+    .crew div {
+        width: 50%;
+        text-align: center;
+    }
+
+    .rigth {
+        margin-top: 15%;
+    }
+
+    img {
+        width: 80%;
+        height: auto;
+    }
+
+    .name {
+        margin-bottom: 0%;
+    }
+
+    .ocup {
+        position: relative;
+        text-align: left;
+        margin: 0px;
+        top: -11.5rem;
+        left: 45%;
+        transform: rotate(90deg);
+    }
+}
